@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+header,
+.buy,
+.main_description,
+.word_description {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header img {
+  width: 100px;
+}
+.buy_image {
+  float: left;
+}
+.buy_image img {
+  width: 350px;
+  height: 435px;
+}
+.buy_description {
+  float: right;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+.buy_description img {
+  width: 400px;
+}
+#insam_coupon {
+  border: 1px solid black;
+  margin: 20px 0px;
+  height: 24px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.buy_description .start {
+  padding: 7px 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.buy_description .halboo {
+  padding: 7px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+#insam_option {
+  border: 1px solid black;
+  margin-top: 20px;
+  height: 24px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.buy_description .buy_btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.buy_description .buy_btn img {
+  width: 130px;
+}
+
+.buy_description .buy_btn > :first-child {
+  margin-left: 30px;
+}
+.buy_description .buy_btn > :last-child {
+  margin-right: 30px;
+}
+
+.main_description img {
+  width: 100%;
+}
+.word_description img {
+  width: 100%;
+  margin-top: 20px;
+}
